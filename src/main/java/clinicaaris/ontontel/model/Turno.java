@@ -14,7 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "turno")
+@Table(name = "turnos")
 public class Turno implements Serializable {
     @Id
     @SequenceGenerator(name = "turno_seq",sequenceName = "turno_seq")

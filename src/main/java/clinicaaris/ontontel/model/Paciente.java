@@ -18,7 +18,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "paciente")
+@Table(name = "pacientes")
 public class Paciente implements Serializable {
     @Id
     @SequenceGenerator(name = "paciente_seq", sequenceName = "paciente_seq")
